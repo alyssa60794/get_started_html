@@ -56,6 +56,10 @@ align-items: center;
 
 nav {
   margin-left: 20pt;
+  color: orange;
+  border: 3px;
+  border-style: solid;
+  background-color: pink;
 }
 
 nav p {
@@ -70,6 +74,10 @@ section h1 {
 
 article {
   border: 1px;
+  border-style: solid;
+  border-color: purple;
+  padding: 10pt;
+  margin: 10pt;
 }
 
 article header {
@@ -83,14 +91,24 @@ article p {
 aside {
   display: inline-block;
   width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
 }
 
 aside h2 {
-  
+  font-size: 18pt;
 }
 
 .quotation p {
   font-style: italic;
 }
 
+footer {
+  border-top: 1pt solid;
+}
 
+footer p {
+  font-size: 12pt;
+  text-align: right;
+}
