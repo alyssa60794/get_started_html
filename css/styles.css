@@ -56,6 +56,10 @@ align-items: center;
 
 nav {
   margin-left: 20pt;
+  color: orange;
+  border: 1px;
+  border-style: solid;
+  background-color: pink;
 }
 
 nav p {
@@ -69,7 +73,11 @@ section h1 {
 }
 
 article {
-  border: 1px;
+  border: 2px;
+  border-style: solid;
+  border-color: purple;
+  padding: 15pt;
+  margin: 15pt;
 }
 
 article header {
