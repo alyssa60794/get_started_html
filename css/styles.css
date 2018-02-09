@@ -104,4 +104,11 @@ aside h2 {
   font-style: italic;
 }
 
+footer {
+  border-top: 2pt solid;
+}
 
+footer p {
+  font-size: 15pt;
+  text-align: center;
+}
